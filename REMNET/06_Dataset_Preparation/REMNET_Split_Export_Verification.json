@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_sha256": "75457c8836ccfd269756b9f1f1db92bf737b81fe122def35fcb2adea50fd271c",
+  "rows": 2906,
+  "unique_sha256": 2906,
+  "unique_paths": 2906,
+  "matches_dataset_zip_image_paths": true,
+  "partition_counts": {
+    "Training": 1956,
+    "Validation": 487,
+    "Testing": 463
+  },
+  "total_per_class": {
+    "cardboard": 403,
+    "glass": 584,
+    "metal": 450,
+    "paper": 592,
+    "plastic": 529,
+    "trash": 348
+  }
+}

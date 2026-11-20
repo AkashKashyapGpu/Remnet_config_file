@@ -1,0 +1,5 @@
+model,metric,n_seeds,external_images,external_mean_pct,external_sample_sd_pct
+REMNET,accuracy,5,3497,44.7698026880,3.4826402756
+REMNET,macro_precision,5,3497,52.8277164510,3.8939962839
+REMNET,macro_recall,5,3497,42.7605744061,3.4585772669
+REMNET,macro_f1,5,3497,40.6482072985,4.0555209806

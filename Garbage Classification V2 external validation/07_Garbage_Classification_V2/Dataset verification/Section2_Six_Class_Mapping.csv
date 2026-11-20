@@ -1,0 +1,7 @@
+external_folder_class,stage2_trained_class,stage2_output_index,stage2_class_to_idx,stage2_source_rule,class_mapping_verified,evidence
+cardboard,cardboard,0,cardboard:0,torchvision ImageFolder sorted folder names (six classes),True,Stage 2 ImageFolder implementation + locked split manifest classes + public original class folders
+glass,glass,1,glass:1,torchvision ImageFolder sorted folder names (six classes),True,Stage 2 ImageFolder implementation + locked split manifest classes + public original class folders
+metal,metal,2,metal:2,torchvision ImageFolder sorted folder names (six classes),True,Stage 2 ImageFolder implementation + locked split manifest classes + public original class folders
+paper,paper,3,paper:3,torchvision ImageFolder sorted folder names (six classes),True,Stage 2 ImageFolder implementation + locked split manifest classes + public original class folders
+plastic,plastic,4,plastic:4,torchvision ImageFolder sorted folder names (six classes),True,Stage 2 ImageFolder implementation + locked split manifest classes + public original class folders
+trash,trash,5,trash:5,torchvision ImageFolder sorted folder names (six classes),True,Stage 2 ImageFolder implementation + locked split manifest classes + public original class folders

@@ -1,0 +1,10 @@
+d3_source_label,remnet_trained_class,remnet_output_index,include_for_primary_d3,observed_d3_files,class_review,class_mapping_basis
+Cardboard,cardboard,0,True,461,CONFIRMED_BY_USER,Six-output trained class index order; Miscellaneous Trash maps to Trash
+Glass,glass,1,True,420,CONFIRMED_BY_USER,Six-output trained class index order; Miscellaneous Trash maps to Trash
+Metal,metal,2,True,790,CONFIRMED_BY_USER,Six-output trained class index order; Miscellaneous Trash maps to Trash
+Paper,paper,3,True,500,CONFIRMED_BY_USER,Six-output trained class index order; Miscellaneous Trash maps to Trash
+Plastic,plastic,4,True,921,CONFIRMED_BY_USER,Six-output trained class index order; Miscellaneous Trash maps to Trash
+Miscellaneous Trash,trash,5,True,495,CONFIRMED_BY_USER,Six-output trained class index order; Miscellaneous Trash maps to Trash
+Food Organics,,,False,411,NOT_APPLICABLE,No corresponding output
+Textile Trash,,,False,318,NOT_APPLICABLE,No corresponding output
+Vegetation,,,False,436,NOT_APPLICABLE,No corresponding output

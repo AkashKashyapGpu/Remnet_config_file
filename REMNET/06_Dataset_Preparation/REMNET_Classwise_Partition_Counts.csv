@@ -1,0 +1,8 @@
+﻿class_label,Training,Validation,Testing,total
+cardboard,269,67,67,403
+glass,400,100,84,584
+metal,293,73,84,450
+paper,398,98,96,592
+plastic,357,89,83,529
+trash,239,60,49,348
+TOTAL,1956,487,463,2906
