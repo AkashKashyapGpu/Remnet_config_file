@@ -1,0 +1,25 @@
+CODE RIGHTS NOTICE — ALL RIGHTS RESERVED
+
+Copyright (c) 2026 the respective copyright holder(s) of the code.
+All rights reserved.
+
+No license to copy, modify, redistribute, sublicense, or commercially exploit
+this repository's original code is granted by this notice. Permission must be
+obtained from the relevant copyright holder(s) before exercising rights beyond
+those permitted by applicable law.
+
+This file is intentionally NOT an MIT, Apache, GPL, or other open-source
+license. The repository submitter did not specify the identity of the code
+rights holder(s) or authorize a particular open-source license. Replace this
+notice only after confirming authorship and obtaining authorization for the
+chosen license.
+
+THIRD-PARTY MATERIALS
+The source image datasets, mirrors, pretrained models, model checkpoints,
+libraries, and other third-party materials referenced by the notebooks remain
+subject to their respective copyright notices, licenses and terms. This
+notice does not relicense those materials. In particular, the archived
+Garbage Classification V2 audit reports conflicting MIT (Kaggle listing) and
+CC BY-SA 4.0 (creator's site) notices; their applicability was not resolved.
+The official RealWaste dataset is identified as CC BY 4.0 in the included
+source record. Consult the primary dataset providers before redistribution.
