@@ -202,15 +202,6 @@ First verify the D3 cohort; then run the frozen classification evaluations and, 
 
 **Outputs:** [`Classification results/`](<RealWaste external validation/08_RealWaste/Classification results/>) contains [`REMNET_All_Seeds_D3_External.csv`](<RealWaste external validation/08_RealWaste/Classification results/REMNET_All_Seeds_D3_External.csv>), [`REMNET_Five_Seed_Mean_SD_D3_External.csv`](<RealWaste external validation/08_RealWaste/Classification results/REMNET_Five_Seed_Mean_SD_D3_External.csv>), and [`all models.zip`](<RealWaste external validation/08_RealWaste/Classification results/all models.zip>).
 
-The D3 classification and sustainability evaluations use model-specific RGB image sizes:
-
-| Model | D3 input image size |
-|---|---:|
-| MobileNetV2 | 384 × 384 |
-| EfficientNet-Lite0 | 384 × 384 |
-| ResNet50 | 350 × 350 |
-| REMNET | 484 × 484 |
-
 D3 monitoring records **two inference passes** over the same 3,497 images, corresponding to **6,994 processed images per seed**. Inference energy, runtime, throughput, and CO₂e are retained as sustainability-specific outcomes.
 
 ## Manuscript Table 15 — architecture-level GPU inference benchmark
