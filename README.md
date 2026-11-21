@@ -204,7 +204,7 @@ First verify the D3 cohort; then run the frozen classification evaluations and, 
 
 D3 monitoring records **two inference passes** over the same 3,497 images, corresponding to **6,994 processed images per seed**. Inference energy, runtime, throughput, and CO₂e are retained as sustainability-specific outcomes.
 
-## Manuscript Table 15 — architecture-level GPU inference benchmark
+## Manuscript architecture-level GPU inference benchmark
 
 [`REMNET/05_Computational_Complexity/throughput.ipynb`](REMNET/05_Computational_Complexity/throughput.ipynb) is an **architecture-level inference benchmark**. It instantiates the MobileNetV2, EfficientNet-Lite0, and ResNet50 architectures with **randomly initialized weights** and evaluates their three-model REMNET soft-voting ensemble. The benchmark **uses no trained classification checkpoints** and is designed to characterize architectural inference cost separately from trained-model accuracy and separately monitored energy measurements.
 
@@ -216,7 +216,7 @@ The notebook measures:
 - **Repeatability:** five profiling repetitions (rather than five training seeds).
 - **Real-time criterion:** inference-only batch-1 p95 ≤ 33.33 ms for the tested GPU and resolution.
 
-The executable notebook exports some files with the historical prefix `Table14_*`; these belong to the architecture-level experiment documented as **Table 15** in the manuscript. Classification results, independent CodeCarbon measurements, and architecture-only profiling each retain their respective measurement scopes.
+ Classification results, independent CodeCarbon measurements, and architecture-only profiling each retain their respective measurement scopes.
 
 ## Shared modules and result provenance
 
