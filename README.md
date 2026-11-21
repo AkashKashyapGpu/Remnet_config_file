@@ -13,12 +13,12 @@ The experiments use five seeds (`7`, `49`, `112`, `345`, `476`) and the common c
 | Workflow | Purpose | Experimental arrangement |
 |---|---|---|
 | Original classification | Train and evaluate REMNET and the three standalone CNNs on the original waste-image dataset | Five-seed classification experiments |
-| Sustainability | Measure energy use, CO₂e, and runtime with CodeCarbon | **Separately conducted training and inference experiments**, with their own checkpoint lineage |
+| Sustainability | Measure energy use, CO₂e, and runtime with CodeCarbon |  Five-seed Sustainability experiments with training and inference , with their own checkpoint lineage |
 | Garbage Classification V2 | Evaluate transfer on a screened six-category external cohort | Frozen classification checkpoints; 4,931 images |
 | RealWaste D3 | Evaluate zero-shot performance on realistic external imagery | Frozen classification checkpoints; 3,497 images |
 | Computational profiling / manuscript Table 15 | Measure architectural inference latency, throughput, and peak GPU memory | Randomly initialized architectures and a three-CNN ensemble; five profiling repetitions |
 
-**Experiment provenance.** Classification and sustainability are two complementary, **independently executed** research workflows. Their checkpoints, measurements, and per-seed results are preserved under separate folders. Accuracy–energy indicators derived from their reported summaries describe cross-workflow comparisons rather than jointly measured predictions and energy from a single execution. External classification uses the frozen classification checkpoint collection; sustainability reporting follows its own recorded monitoring sessions.
+**Experiment provenance.** Classification and sustainability are two complementary, executed research workflows. Their checkpoints, measurements, and per-seed results are preserved under separate folders. Accuracy–energy indicators derived from their reported summaries describe cross-workflow comparisons. External classification uses the frozen classification checkpoint collection; sustainability reporting follows its own recorded monitoring sessions.
 
 ## Repository layout
 
