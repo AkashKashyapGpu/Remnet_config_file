@@ -165,7 +165,7 @@ Every notebook is a self-contained research workflow. Open it in Kaggle/Jupyter,
 | [`Gflops.ipynb`](REMNET/05_Computational_Complexity/Gflops.ipynb) | Model computational-complexity profiling. |
 | [`throughput.ipynb`](REMNET/05_Computational_Complexity/throughput.ipynb) | Architecture-level inference benchmark reported as **Table 15** in the manuscript; detailed protocol below. |
 
-Original Stage 2 classification and CodeCarbon notebook preprocessing uses **32 × 32** image inputs. Sustainability reports distinguish original CodeCarbon CO₂e values from calculated values based on the stated carbon-intensity factor of **0.475 kg CO₂e/kWh**.
+Original Stage 2 classification and CodeCarbon notebook preprocessing uses **32 × 32** image inputs. Sustainability reports supports original CodeCarbon CO₂e values from calculated values based on the stated carbon-intensity factor of **0.475 kg CO₂e/kWh**.
 
 ### B. Garbage Classification V2 — external evaluation
 
